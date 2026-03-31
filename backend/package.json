@@ -1,0 +1,50 @@
+{
+  "name": "express",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index",
+  "scripts": {
+    "dev": "npx tsx watch src/server.ts",
+    "build": "npx tsc --build",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/compression": "^1.7.5",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/lodash": "^4.17.13",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.19.15",
+    "esbuild": "^0.27.4",
+    "prisma": "^7.6.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@better-auth/prisma-adapter": "^1.5.6",
+    "@prisma/adapter-better-sqlite3": "^7.6.0",
+    "@prisma/client": "^7.6.0",
+    "@socket.io/redis-streams-adapter": "^0.2.2",
+    "better-auth": "^1.5.6",
+    "compression": "^1.7.5",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "reflect-metadata": "^0.2.2",
+    "winston": "^3.17.0",
+    "zod": "^4.3.6"
+  }
+}
