@@ -1,4 +1,4 @@
-# 🛒 Buyer Portal
+# 🛒 Buyer Portal (auth env in forms copy it in past it in backend .env)
 
 This project provides a **streamlined interface for managing buyer activities**.  
 Follow the instructions below to get the environment up and running quickly.
